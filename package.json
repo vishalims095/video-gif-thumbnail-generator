@@ -1,0 +1,35 @@
+{
+  "name": "video-gif-thumbnail-generator",
+  "version": "1.0.0",
+  "description": "node gif and thumbnail generator from videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalims095/video-gif-thumbnail-generator.git"
+  },
+  "keywords": [
+    "node-gif",
+    "node-thumbnail",
+    "video-gif-thumbnail-generator",
+    "video-gif-thumbnail",
+    "gif-creator",
+    "thumbnail-creator"
+  ],
+  "author": "vishal sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalims095/video-gif-thumbnail-generator/issues"
+  },
+  "homepage": "https://github.com/vishalims095/video-gif-thumbnail-generator#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^1.2.0",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "md5": "^2.3.0"
+  }
+}
