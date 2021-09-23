@@ -4,11 +4,11 @@
 
 Use the package manager npm to install.
 
-## Don't forget to craete a "thumbnail" folder because all files get stored in thumbnail folder
-
 ```bash
 npm i video-gif-thumbnail-generator
 ```
+## Don't forget to craete a "thumbnail" folder because all files get stored in thumbnail folder
+
 ## Usage
 
 ```javascript
