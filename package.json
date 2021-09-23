@@ -1,6 +1,6 @@
 {
   "name": "video-gif-thumbnail-generator",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "node gif and thumbnail generator from videos",
   "main": "index.js",
   "scripts": {
