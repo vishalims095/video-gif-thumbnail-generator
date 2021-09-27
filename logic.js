@@ -33,13 +33,14 @@ exports.convertToThumbnail = async (inputFile) =>{
             console.log("\nFile Renamed!\n");
         });
 }
-
+let gifURL   = Math.round((new Date()).getTime() / 1000)+'.gif'
 exports.convertToGIF = async(fileName) => {
     // create sort vedio
     ffmpeg(fileName)
         .setStartTime('00:00:03')
         .setDuration('10')
-        .output(`./thumbnail/test.gif`)
+        .size("480x320")
+        .output(`./thumbnail/${gifURL}`)
         .on('end', function(err) {
         if(!err) { console.log('conversion Done') }
         })
